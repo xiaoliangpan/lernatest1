@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "global": "^4.4.0",
+    "lerna": "^4.0.0"
+  },
+  "name": "lerna_test1",
+  "scripts": {
+    "commit": "git-cz"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "workspace": [
+    "config",
+    "setting"
+  ],
+  "private": true,
+  "devDependencies": {
+    "commitizen": "^4.2.4",
+    "cz-lerna-changelog": "^2.0.3"
+  }
+}
